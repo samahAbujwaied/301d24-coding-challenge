@@ -31,7 +31,7 @@ Output: ['a','b','c','d','e','f']
 const addInTheMiddle = (arr, val) => {
   
     let num = arr.num;
-    for(a = num -1; a >= val; a--){
+    for(let a = num -1; a >= val; a--){
         arr[num] = arr[a];
         num--;
     };
